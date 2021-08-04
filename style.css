@@ -1,0 +1,66 @@
+.listes {
+    list-style: none;
+    display: flex;
+}
+
+.listes li {
+    margin-right: 20px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    background-color: #24a2b7;
+    font-family: "Segoe UI Semibold";
+}
+
+td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.card {
+    width: 80%;
+    margin:auto;
+}
+.card-header {
+    background-color: #f8f8f8;
+    display: flex;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.card-body {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+}
+
+#create {
+    color: grey;
+}
+
+.edit {
+    background-color: #24a2b7;
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.delete {
+    background-color: #da3749;
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 3px;
+}
